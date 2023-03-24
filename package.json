@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "airtable": "^0.11.6",
+    "dotenv": "^16.0.3",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "file-system": "^1.2.2",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
