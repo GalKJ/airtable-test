@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { airKey } from '../../api.js';
 import styles from '@/styles/Home.module.css';
-import { fs } from 'file-system';
 
 var Airtable = require('airtable');
 var base = new Airtable({ apiKey: 'keyiZ14wOq11qGUUZ' }).base(
