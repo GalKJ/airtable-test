@@ -1,12 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { airKey } from '../../api.js';
+import airKey from '../../api.js';
 import styles from '@/styles/Home.module.css';
 
 var Airtable = require('airtable');
-var base = new Airtable({ apiKey: 'keyiZ14wOq11qGUUZ' }).base(
-  'appEWUBOGkkEbD39C'
-);
+var base = new Airtable({ apiKey: airKey }).base('appEWUBOGkkEbD39C');
 
 base('Food Donars')
   .select({
